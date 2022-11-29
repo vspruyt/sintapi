@@ -4,6 +4,12 @@ This is a basic API (FastAPI) for a conversational agent that does:
 2. Dialog generation (GPT-3 via OpenAI)
 3. Speech synthesis (GCP speech synthesis)
 
+## Run it
+Make sure you have the frontend running too (https://github.com/vspruyt/sintbot)!
+```bash
+> uvicorn main:app --reload --port 9999
+```
+
 ![Flow diagram](resources/diagram.png)
 
 
