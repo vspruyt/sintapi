@@ -1,5 +1,5 @@
 ## SintAPI
-This is a basic API for a conversational agent that does:
+This is a basic API (FastAPI) for a conversational agent that does:
 1. Speech recognition (GCP speech recognition or Whisper via Replicate.ai)
 2. Dialog generation (GPT-3 via OpenAI)
 3. Speech synthesis (GCP speech synthesis)
